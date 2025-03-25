@@ -1,0 +1,47 @@
+body{
+			background-size: 1700px;
+			background-image: url(ilovechiikawa.jpg);
+			background-repeat: no-repeat;
+
+			animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+
+
+
+			h1{
+				background-color: white;
+				margin: 15pxpx;
+				padding: 10px;
+				border-radius: 30px;
+				width: 700px;
+				text-align: center;
+
+			}
+
+			} 
+		@keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+
+		.container{
+
+			text-align: left;
+			background-color: white;
+			border: medium dashed;
+			border-color: #ffc4d6;
+			
+		}
+
+
+		#main{
+			display: flex;
+		}
